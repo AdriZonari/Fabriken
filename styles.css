@@ -1,0 +1,177 @@
+body{
+    font-family: 'Montserrat', sans-serif; 
+    color: #606060;
+}
+
+.row{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h1{
+    color:black;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+div{
+    padding:0;
+}
+
+.top {
+    color:black;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    position: relative;
+    left: 95%;
+    bottom:5%;
+    width: 80px;
+    
+}
+
+.top:hover{
+    color:#606060;
+}
+
+/* introduction */
+
+.container-fluid{
+    background-color: #ededed;
+    margin-bottom: 20px;
+    padding: 2% 15%;
+
+}
+
+#introduction{
+    margin-top: 100px;
+}
+
+.text-body{
+    text-align: left;
+    margin: 10px;
+    
+}
+
+.anton{
+    text-align: center;
+    width: 100%;
+    padding:0;
+    
+}
+
+
+.heading{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin:10px;
+    
+}
+
+/* navbar */
+.navbar{
+    padding: 8px 0;
+}
+
+.nav-item{
+    padding: 0 1rem;
+}
+
+/* våra tjänster */
+
+#products{
+    margin-top: 20px;
+}
+
+#products a{
+    color: #ededed;
+    font-size: 5rem;
+    text-align: center;
+    margin: 15% auto;
+    display: flex;
+    flex-direction: column;   
+
+}
+
+.text-icon{
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#products i{
+    padding:1.5rem;
+    margin:auto;
+}
+
+#products a:hover{
+    color:rgba(0, 0, 0, 0.5);
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color: #ededed;
+    margin-top: 20px 50px;
+    text-align: center;
+}
+
+.testimonial-image{
+    width:8%;
+    border-radius: 100%;
+    margin-right: 5px;
+    
+}
+
+.testimonial-1, .testimonial-2{
+    font-weight: 300;
+    margin-top: 60px;
+
+}
+
+.carousel-inner{
+    padding: 2% 15%;
+    
+}
+
+/* footer */
+
+footer{
+    display:flex;
+    flex-direction: column;
+    padding:30px;
+    background-color: #8d8c8c;
+    text-align:center;
+}
+
+.footer{
+    margin:auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.row{
+    margin:auto;
+}
+
+.facebook, .instagram, .envelope{
+    font-size:1.5rem;
+    color:black;
+    
+}
+.facebook:hover{
+    font-size: 2rem;
+}
+
+.instagram:hover{
+    font-size: 2rem;
+}
+
+.envelope:hover{
+    font-size: 2rem;
+}
