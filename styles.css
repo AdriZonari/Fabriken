@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif; 
     color: #606060;
+    text-align: center;
 }
 
 .row{
@@ -8,13 +9,9 @@ body{
     margin-bottom: 5px;
 }
 
-h1{
-    color:black;
-}
 
 h2{
     font-family: 'Roboto Slab', serif;
-    text-align: center;
     margin-bottom: 2rem;
 }
 
@@ -22,17 +19,20 @@ div{
     padding:0;
 }
 
-.top {
-    color:black;
+.top{
+    color:#8d8c8c;
     font-size: 1.3rem;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    position: relative;
-    left: 95%;
+    padding:10px;
+    position: fixed;
+    right: 2%;
     bottom:5%;
-    width: 80px;
+    background-color: #fff;
+    border-radius:100%;
+    width: auto;
     
 }
+
+ 
 
 .top:hover{
     color:#606060;
@@ -42,7 +42,6 @@ div{
 
 .container-fluid{
     background-color: #ededed;
-    margin-bottom: 20px;
     padding: 2% 15%;
 
 }
@@ -58,7 +57,6 @@ div{
 }
 
 .anton{
-    text-align: center;
     width: 100%;
     padding:0;
     
@@ -66,9 +64,9 @@ div{
 
 
 .heading{
+    color: black;
     font-family: 'Roboto Slab', serif;
     font-size: 2.5rem;
-    text-align: center;
     margin:10px;
     
 }
@@ -91,7 +89,6 @@ div{
 #products a{
     color: #ededed;
     font-size: 5rem;
-    text-align: center;
     margin: 15% auto;
     display: flex;
     flex-direction: column;   
@@ -115,11 +112,6 @@ div{
 
 /* testimonials */
 
-#testimonials{
-    background-color: #ededed;
-    margin-top: 20px 50px;
-    text-align: center;
-}
 
 .testimonial-image{
     width:8%;
@@ -135,7 +127,7 @@ div{
 }
 
 .carousel-inner{
-    padding: 2% 15%;
+    padding: 0 15%; /* keeps the arrows from the slide-show outside the text block */
     
 }
 
@@ -146,7 +138,6 @@ footer{
     flex-direction: column;
     padding:30px;
     background-color: #8d8c8c;
-    text-align:center;
 }
 
 .footer{
