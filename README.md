@@ -1,2 +1,2 @@
 # Fabriken
-Anton's business homepage
+Anton's business homepage - a small business homepage using bootstrap.
